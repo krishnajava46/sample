@@ -2,7 +2,7 @@ package com.wipro;
 
 public class BaseResponse {
 
-	private String status;
+	private String status, message;
 	private Integer code;
 	
 	public BaseResponse() {
