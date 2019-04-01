@@ -3,7 +3,7 @@ package com.wipro;
 public class BaseResponse {
 
 	private String status, message;
-	private Integer code;
+	private Integer code, check;
 	
 	public BaseResponse() {
 		// TODO Auto-generated constructor stub
